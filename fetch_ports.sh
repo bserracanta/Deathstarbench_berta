@@ -58,15 +58,15 @@ echo ""
 echo "Environment variables set for Python script integration."
 echo "=========================================="
 
-# Output SSH command for port forwarding
-echo ""
-echo "Use the following SSH command to access the services from your laptop:"
-echo ""
-#echo "ssh -L 8080:${NODE_IP}:${NGINX_PORT} -L 9090:${NODE_IP}:${PROMETHEUS_PORT} -L 16686:${NODE_IP}:${JAEGER_PORT} -L 3000:${NODE_IP}:${GRAFANA_PORT} -L 20001:${NODE_IP}:${KIALI_PORT} -L ${LOCAL_ISTIO_PORT}:${NODE_IP}:${ISTIO_INGRESS_PORT} -X dlamagna@147.83.130.183 -p 13000"
-echo "ssh -L 8080:${NODE_IP}:${NGINX_PORT} -L 9090:${NODE_IP}:${PROMETHEUS_PORT} -L 3000:${NODE_IP}:${GRAFANA_PORT} -X berta@merlot-b1.cba.upc.edu -p 22"
+# # Output SSH command for port forwarding
+# echo ""
+# echo "Use the following SSH command to access the services from your laptop:"
+# echo ""
+# #echo "ssh -L 8080:${NODE_IP}:${NGINX_PORT} -L 9090:${NODE_IP}:${PROMETHEUS_PORT} -L 16686:${NODE_IP}:${JAEGER_PORT} -L 3000:${NODE_IP}:${GRAFANA_PORT} -L 20001:${NODE_IP}:${KIALI_PORT} -L ${LOCAL_ISTIO_PORT}:${NODE_IP}:${ISTIO_INGRESS_PORT} -X dlamagna@147.83.130.183 -p 13000"
+# echo "ssh -L 8080:${NODE_IP}:${NGINX_PORT} -L 9090:${NODE_IP}:${PROMETHEUS_PORT} -L 3000:${NODE_IP}:${GRAFANA_PORT} -X berta@merlot-b1.cba.upc.edu -p 22"
 
-echo ""
-echo "=========================================="
+# echo ""
+# echo "=========================================="
 
 # Output Localhost Access URLs after SSH Port Forwarding
 echo ""
