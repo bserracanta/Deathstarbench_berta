@@ -109,7 +109,7 @@ Change url to nginx NodePort address.
 The default output file might have a different name, to check it run the following query inside the loader directory:
 
 ```bash
- ../../wrk2/wrk -D exp -t 1 -c 1 -d 50s -L -s ./../wrk2/scripts/social-network/compose-post.lua http://<nginxNodePort:Port>/wrk2-api/post/compose -T 1s -R 5
+ ../../wrk2/wrk -D exp -t 1 -c 1 -d 50s -P -s ./../wrk2/scripts/social-network/compose-post.lua http://<nginxNodePort:Port>/wrk2-api/post/compose -T 1s -R 5
 ```
 
 
